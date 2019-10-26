@@ -1,0 +1,24 @@
+{
+    "env": {
+      "es6": true,
+      "browser": true
+    },
+   "parser": "@typescript-eslint/parser",
+   "plugins": ["fp", "@typescript-eslint", "prettier"],
+   "extends": ["airbnb", "airbnb-typescript", "prettier", "prettier/@typescript-eslint", "prettier/react", "prettier/standard" ],
+   "rules": {
+     "prettier/prettier": ["error"],
+     "react/prop-types": 0,
+     "max-lines": ["warn", 200],
+     "fp/no-mutation": "warn",
+     "no-param-reassign": "warn",
+     "fp/no-mutating-assign": "warn",
+     "fp/no-mutating-methods": "warn",
+     "fp/no-let": "warn",
+     "fp/no-this": "warn",
+     "fp/no-loops": "warn",
+     "fp/no-delete": "warn",
+     "fp/no-throw": "warn",
+     "no-nested-ternary": "off"
+   }
+}
